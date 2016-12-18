@@ -1,0 +1,650 @@
+html,body {
+	margin: 0;
+	padding: 0;
+}
+
+.nav{
+	z-index: 1;
+	position: fixed;
+	background-color: white;
+	width: 100%;
+	height: 70px;
+
+	padding-top: 15px;
+}
+
+.nav-placeholder{
+	height: 70px;
+	width: 100%;
+}
+
+.nav-logo{
+	width: 130px;
+
+	vertical-align: top;
+
+	margin-right: 30px;
+	display: inline-block;
+}
+
+.nav-option{
+	display: inline-block;
+	position: relative;
+
+	color: #024F87;
+	font-size: 18px;
+}
+
+.nav-cta{
+
+	display: inline-block;
+}
+
+.nav-secondary-box{
+
+	height: 15px;
+	margin-left: 50%;
+
+	padding-top: 2px;
+	vertical-align: top;
+	display: inline-block;
+	position: relative;
+}
+
+.nav-secondary{
+
+	font-size: 12px;
+	color: #024F87;
+
+	vertical-align: top;
+	display: inline-block;
+	position: relative;
+}
+
+.wrapper{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.calendar-box{
+	
+	text-align: center;
+	margin-left: 60%;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	
+	height: 550px;
+	width: 350px;
+	padding: 10px;
+	padding-top: 30px;
+	
+	position: relative;
+	display: inline-block;
+
+	background-color: white; 
+	color: black;
+	opacity: .9;
+
+	font-size: 18px;
+}
+
+.event-icon{
+	width: 40px;
+	height: 40px;
+
+	margin-left: 10px;
+
+	background: url("images/event-icon1.png");
+
+	display: block;
+	position: absolute;
+}
+
+.calendar-box h2{
+
+	line-height: 0px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.upcoming-event{
+	width: 250px;
+	display: block;
+	margin-left: 70px;
+	position: relative;
+}
+
+.upcoming-event h6{
+
+	font-size: 14px;
+}
+
+.event-list-button{
+
+	width: 300px;
+	height: 40px;
+	text-align: center;
+
+	margin-left: 15px;
+	background-color: #024F87;
+	color: white;
+
+	padding-top: 5px;
+}
+
+.event-list-button a{
+
+	color: white;
+}
+
+h2{
+
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+h5, h6{
+
+	text-align: left;
+	margin-left: 0px;
+}
+
+.hero{
+	background-image: url("images/hero1.jpg");	
+	background-size: cover;
+	height: 600px;
+	padding-top: 30px;
+	position: relative;
+}
+
+.hero-text-overlay{
+
+	background-color: white;
+	opacity: .9;
+	width: 500px;
+	height: 300px;
+	padding: 30px;
+	text-align: left;
+	margin-left: 20px;
+
+	display: inline-block;
+	position: absolute;
+}
+
+.hero-text-format{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.hero-cta-right{
+
+	margin-top: 20px;
+}
+
+.hero-cta-left{
+
+	text-align: center;
+}
+
+.hero h1{
+	padding-top: 50px;
+	position: absolute; //absolute takes item out of normal flow of document
+	top: 50%;
+	left: 45%;
+}
+
+
+.about{
+
+	width: 100%;
+	height: 150px;
+	padding: 30px;
+
+	background-color: white;
+	color: #024F87;
+	display: inline-block;
+
+}
+
+.map-block{
+
+	width: 100%;
+	height: 320px;
+	padding: 0px;
+
+	display: inline-block;
+}
+
+.area-box{
+	width: 30%;
+	height: 320px;
+	vertical-align: center;
+	display: inline-block;
+	padding: 20px;
+	margin: 0px;
+
+	background: #024F87;
+	color: white;
+	position: absolute;
+}
+
+.column-box-container{
+
+	width: 100%;
+	height: 130px;
+
+	vertical-align: top;
+	text-align: center;
+
+
+}
+.column-box{
+
+	width: 110px;
+	height: 50px;
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 10px;
+
+	vertical-align: top;
+	text-align: center;
+
+	border: solid 1px white;
+	display: inline-block;
+	position: relative;
+}
+
+.area-box a{
+
+	margin-left: 0px;
+	font-size: 18px;
+	color: white;
+	text-align: center;
+}
+
+h2{
+
+	text-align: center;
+	vertical-align: top;
+}
+
+.area-cta{
+
+	display: inline-block;
+	margin: 5px;
+}
+
+.directions-button{
+
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+
+	padding-top: 10px;
+}
+.map-item{
+	width: 69%;
+	height: 320px;
+	display: inline-block;
+	
+	position: absolute;
+	margin-left: 30%;
+}
+
+
+
+.sponsor-block{
+
+	width: 100%;
+	height: 250px;
+	padding: 0px;
+
+	display: inline-block;
+}
+
+.sponsor-box{
+	width: 30%;
+	height: 250px;
+	display: inline-block;
+
+	position: absolute;
+}
+
+.social-block{
+	width: 30%;
+	height: 40px;
+	text-align: center;
+	margin-top: 10px;
+
+	display: block;
+
+}
+.social-icon-block{
+
+	width: 30%;
+	height: 60px;
+
+	text-align: center;
+	display: block;
+
+	margin-bottom: 20px;
+}
+
+.social-icon-box{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	margin: 10px;
+
+	text-align: center;
+}
+
+.contact-info-block{
+
+	width: 30%;
+	height: 100px;
+	text-align: center;
+
+}
+
+.contact-info-box{
+
+	width: 200px;
+	height: 40px;
+	display: inline-block;
+
+	text-align: center;
+	margin-top: 5px;
+	vertical-align: center;
+}
+
+.contact-icon-box{
+
+	width: 40px;
+	height: 40px;
+
+	margin-left: 5px;
+	margin-top: 5px;
+
+	position: relative;
+	display: inline-block;
+
+}
+
+.logo-box{
+	width: 69%;
+	height: 350px;
+	
+	display: inline-block;
+	margin-left: 30%;
+
+	position: absolute;
+}
+
+.main-sponsor-block{
+
+	width: 100%;
+	height: 120px;
+	text-align: center;
+
+	vertical-align: top;
+	margin-top: 20px;
+
+}
+
+.main-sponsor-logo{
+
+	width: 156px;
+	height: 100px;
+
+	vertical-align: top;
+	text-align: center;
+	display: inline-block;
+}
+
+.second-sponsor-block{
+
+	width: 100%;
+	height: 100px;
+	text-align: center;
+
+}
+
+.second-sponsor-logo{
+	vertical-align: top;
+
+	width: 130px;
+	height: 87px;
+	display: inline-block;
+
+}
+
+.footer{
+	margin: 0px;
+	width: 100%;
+	height: 300px;
+	padding: 0px;
+
+	background-color: #024F87;
+	display: inline-block;
+}
+
+.footer-top{
+
+	width: 98%;
+	height: 250px;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.footer-menu-box{
+
+	width: 220px;
+	height: 250px;
+	margin-left: 10px;
+	padding-top: 20px;
+
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+
+.footer-menu-text{
+	color: white;
+	line-height: 1px;
+}
+
+.footer-menu-heading{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.footer-menu-box a{
+
+	color: white;
+}
+
+.footer-bottom{
+	width: 100%;
+	height: 30px;
+}
+
+.copyright-text{
+
+	color: white;
+	text-align: center;
+}
+
+h3{
+	font-size: 18px;
+	text-align: center;
+}
+
+.hero-text-overlay h3{
+	text-align: left;
+}
+
+h4{
+	text-align: center;
+}
+
+
+.breadcrumbs-block{
+
+	width: 100%;
+	height: 40px;
+
+	background-color: #024F87;
+	padding: 10px;
+}
+
+ul.breadcrumb {
+    padding: 8px 16px;
+    list-style: none;
+    background-color: #024F87;
+
+}
+ul.breadcrumb li {display: inline;}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: white;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {color: white;}
+
+.hero-planner{
+	background-image: url("images/hero2.jpg");	
+	background-size: cover;
+	height: 550px;
+	padding-top: 30px;
+	position: relative;
+}
+
+.hero-planner-overlay{
+
+	height: 200px;
+	//width: 600px;
+	padding: 50px;
+	text-align: center;
+
+	margin-top: 200px;
+
+	
+	vertical-align: center;
+}
+
+
+.hero-planner-overlay h1{
+
+	color: white;
+	font-weight: bold;
+	font-size: 100px;
+}
+
+.welcome-block{
+
+	background-color: white;
+	color: #024F87;
+
+	padding: 30px;
+	width: 100%;
+
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+.planning-halves{
+
+	width: 49%;
+	height: 300px;
+	display: inline-block;
+
+	vertical-align: top;
+	padding: 40px;
+
+	background-color: white;
+	border: outside solid 3px #024F87;
+	color: #024F87;
+
+}
+
+.form-holder{
+
+	width: 49%;
+	height: 300px;
+	padding: 30px;
+	display: inline-block;
+	//border: 2px solid green;
+	vertical-align: top;
+}
+
+.form-holder h2{
+
+	text-align: left;
+}
+
+.callout-box{
+
+	height: 100px;
+	width: 100%;
+
+	padding: 40px;
+	text-align: center;
+
+	font-size: 24px;
+}
+
+.planning-thirds{
+
+	width: 33%;
+	height: 300px;
+
+	display: inline-block;
+
+	vertical-align: top;
+	text-align: center;
+}
+
+.planning-thirds-image{
+	height: 250px;
+	width: 400px;
+
+	position: relative;
+	display: inline-block;
+}
+
+.planning-thirds-text{
+
+	width: 400px;
+	height: 50px;
+
+	background-color: #024F87;
+
+	margin-top: 0px;
+	text-align: center;
+	vertical-align: top;
+	display: inline-block;
+}
+
+
+.planning-thirds-text h3{
+
+	color: white;
+
+	padding-top: 10px;
+	text-align: center;
+	vertical-align: top;
+	display: inline-block;
+}
+
+.center-button{
+
+	margin-top: 20px;
+	width: 100%;
+	height: auto;
+
+	text-align: center;
+}
+
