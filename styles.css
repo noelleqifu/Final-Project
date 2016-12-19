@@ -94,7 +94,7 @@ html,body {
 
 	margin-left: 10px;
 
-	background: url("images/event-icon1.png");
+	background: url("event-icon1.png");
 
 	display: block;
 	position: absolute;
@@ -150,7 +150,7 @@ h5, h6{
 }
 
 .hero{
-	background-image: url("images/hero1.jpg");	
+	background-image: url("hero1.jpg");	
 	background-size: cover;
 	height: 600px;
 	padding-top: 30px;
@@ -514,7 +514,7 @@ ul.breadcrumb li+li:before {
 ul.breadcrumb li a {color: white;}
 
 .hero-planner{
-	background-image: url("images/hero2.jpg");	
+	background-image: url("hero2.jpg");	
 	background-size: cover;
 	height: 550px;
 	padding-top: 30px;
